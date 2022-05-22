@@ -1,0 +1,49 @@
+body {
+  /*100%窗口高度*/
+  height: 100vh;
+  /*弹性布局 居中*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*渐变背景*/
+  background: linear-gradient(200deg, #e3c5eb, #a9c1ed);
+  background-attachment: fixed;
+  /*溢出影藏*/
+  overflow: hidden;
+
+}
+
+.container {
+  position:relative;
+  z-index:1;
+  width: 350px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #e3c5eb;
+}
+
+.container .title {
+  width: 100%;
+  height: 70px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 70px;
+  margin: 40px auto;
+}
+
+.text{
+  margin-left: 80px;
+}
+
+.text input {
+
+  height: 30px;
+  width: 200px;
+  line-height: 30px;
+  border:none;
+  border-bottom:1px solid #1b2947;
+  margin:14px auto;
+  text-indent: 8px;
+  outline: none;
+}
